@@ -3,7 +3,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 gulp.task('sass', function(cb) {
-    gulp.src('./assets/*.scss')
+    gulp.src('./public/styles/*.scss')
         .pipe(sass())
         .pipe(gulp.dest(function(f) {
             return f.base;
@@ -12,6 +12,6 @@ gulp.task('sass', function(cb) {
 });
 
 gulp.task('default', gulp.series('sass', function(cb) {
-    gulp.watch('./assets/*.scss', gulp.series('sass'));
+    gulp.watch('./public/styles/*.scss', gulp.series('sass'));
     cb();
 }));

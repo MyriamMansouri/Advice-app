@@ -1,0 +1,22 @@
+.progress-bar {
+    width: 0;
+    position: relative;
+	border-radius: 60px;
+	overflow: hidden;
+    margin: 0 auto;
+    animation: progress forwards linear 8s;
+    padding: 1px;
+    background-color: #fff;
+    color: #fff;
+}
+
+@keyframes progress {
+    from {
+        background-color: red;
+        width: 0px
+    }
+    to {
+        background-color: yellow;
+        width: 150px
+    }
+  }
