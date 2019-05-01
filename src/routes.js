@@ -9,4 +9,4 @@ router.get('/', async function(req, res) {
   res.render('home', {layout: 'default', template: 'home-template', quote});
   });
 
-  module.exports = router;
+module.exports = router;
