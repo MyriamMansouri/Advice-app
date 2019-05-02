@@ -20,3 +20,17 @@
         width: 150px
     }
   }
+
+  
+@media (max-width: 500px) {
+    @keyframes progress {
+        from {
+            background-color: red;
+            width: 0px
+        }
+        to {
+            background-color: yellow;
+            width: 100px
+        }
+      }
+}
