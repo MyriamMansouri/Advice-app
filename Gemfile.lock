@@ -1,0 +1,20 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ffi (1.10.0-x64-mingw32)
+    rake (12.3.2)
+    sassc (2.0.1)
+      ffi (~> 1.9)
+      rake
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  sassc
+
+RUBY VERSION
+   ruby 2.5.5p157
+
+BUNDLED WITH
+   2.0.1
