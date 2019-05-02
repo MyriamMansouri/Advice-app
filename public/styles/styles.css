@@ -21,7 +21,7 @@ a {
   padding: 0.4em 0.8em;
   text-align: center; }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .quote {
     font-size: 3em; } }
 
@@ -56,11 +56,11 @@ footer {
     background-color: yellow;
     width: 150px; } }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   @keyframes progress {
     from {
       background-color: red;
       width: 0px; }
     to {
       background-color: yellow;
-      width: 100px; } } }
+      width: 70px; } } }
